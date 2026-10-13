@@ -1,6 +1,6 @@
 ﻿# 启动 HelpDesk 前端（Vite dev server，默认 5173，/api/python 反向代理到 8000）
 $Root     = Split-Path -Parent $PSScriptRoot
-$Frontend = Join-Path (Split-Path $Root -Parent) 'EchoMindFrontend'
+$Frontend = Join-Path (Split-Path $Root -Parent) 'HelpDeskFrontend'
 
 if (-not (Test-Path -LiteralPath $Frontend)) { throw "找不到前端目录：$Frontend" }
 
