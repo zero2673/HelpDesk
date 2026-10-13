@@ -1,0 +1,23 @@
+# 依赖与虚拟环境
+.venv/
+.venv-win/
+node_modules/
+
+# 运行时数据与日志
+logs/
+*.log
+data/chroma/
+data/eval/baseline.json
+
+# 缓存
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# 构建产物
+dist/
+target/
+
+# 本地配置（含密钥）
+.env
+.env.local
